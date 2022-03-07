@@ -8,9 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Addresses extends Model
 {
     use HasFactory;
+   
+    protected $table="addresses";
 
-   public function countries()
-   {
-    return $this->belongsTo('App\Models\Country');
-   }
+    public function countries()
+    {
+        return $this->belongsTo('App\Models\Country');
+    }       
 }
