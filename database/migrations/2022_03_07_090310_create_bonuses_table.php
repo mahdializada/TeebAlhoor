@@ -13,14 +13,8 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('salarybases', function (Blueprint $table) {
+        Schema::create('bonuses', function (Blueprint $table) {
             $table->id();
-            $table->string('base_titile');
-            $table->enum('base_type',['monthly','weekly','daily','hourly']);
-            $table->int('basic_salary');
-            $table->int('currency');
-            $table->int('hourly_overtime_cost');
-            
             $table->timestamps();
         });
     }
@@ -32,6 +26,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('salarybases');
+        Schema::dropIfExists('bonuses');
     }
 };
