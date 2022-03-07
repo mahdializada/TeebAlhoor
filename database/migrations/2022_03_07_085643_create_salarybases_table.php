@@ -20,7 +20,6 @@ return new class extends Migration
             $table->int('basic_salary');
             $table->int('currency');
             $table->int('hourly_overtime_cost');
-            
             $table->timestamps();
         });
     }
