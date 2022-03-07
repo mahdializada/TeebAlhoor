@@ -15,10 +15,13 @@ class employee extends Model
     {
         return $this->hasMany('App\Model\payment');
 
-   
-        return $this->belongsTo('App\Models\salarybase');
     }
 
+    public function salarybases()
+    {
+        return $this->belongsTo('App\Models\salarybase');
+    }
+    
     public function bonuses()
     {
         return $this->hasMany(Bonuses::class);
