@@ -23,4 +23,9 @@ class employee extends Model
     {
         return $this->hasMany(Bonuses::class);
     }
+
+    public function overtimes()
+    {
+        return $this->hasMany(Overtimes::class);
+    }
 }
