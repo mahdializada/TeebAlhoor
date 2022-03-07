@@ -21,7 +21,7 @@ class employee extends Model
     }
     public function salarybases()
     {
-        return $this->belongsTo('App\Models\salarybase');
+        return $this->belongsTo('App\Models\salarybases');
     }
     
     public function bonuses()
