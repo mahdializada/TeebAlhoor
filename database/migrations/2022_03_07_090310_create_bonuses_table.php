@@ -20,6 +20,7 @@ return new class extends Migration
             $table->int('employee_id');
             $table->boolean('calculated');
             $table->timestamps();
+            $table->foreign('employee_id')->references('id')->on('employees')->onDelete('cascade')->onUpdate('cascade');
         });
     }
 
