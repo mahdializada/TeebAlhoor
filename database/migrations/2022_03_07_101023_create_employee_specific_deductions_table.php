@@ -16,9 +16,9 @@ return new class extends Migration
         Schema::create('employee_specific_deductions', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->int('amount');
-            $table->int('employee_id');
-            $table->int('calculate');
+            $table->bigInteger('amount');
+            $table->bigInteger('employee_id');
+            $table->bigInteger('calculate');
             $table->timestamps();
             $table->foreign('employee_id')->references('id')->on('employees')->onDelete('cascade')->onUpdate('cascade');
         });

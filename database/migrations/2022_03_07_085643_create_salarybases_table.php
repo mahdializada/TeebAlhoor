@@ -17,9 +17,9 @@ return new class extends Migration
             $table->id();
             $table->string('base_titile');
             $table->enum('base_type',['monthly','weekly','daily','hourly']);
-            $table->int('basic_salary');
-            $table->int('currency');
-            $table->int('hourly_overtime_cost');
+            $table->bigInteger('basic_salary');
+            $table->bigInteger('currency');
+            $table->bigInteger('hourly_overtime_cost');
             $table->timestamps();
         });
     }
