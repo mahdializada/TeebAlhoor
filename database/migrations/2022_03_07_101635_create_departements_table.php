@@ -13,13 +13,13 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('expences_attachments', function (Blueprint $table) {
+        Schema::create('departements', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('path');
-            $table->bigInteger('expences_id')->unsigned();
+            $table->bigInteger('head');
             $table->timestamps();
-            $table->foreign('expences_id')->references('id')->on('expences')->onDelete('cascade')->onUpdate('cascade');
+            $table->foreign('head')->references('id')->on('employees')->onDelete('cascade')->onUpdate('cascade');
+            
         });
     }
 
@@ -30,6 +30,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('expences_attachments');
+        Schema::dropIfExists('departements');
     }
 };

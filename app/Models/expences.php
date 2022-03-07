@@ -13,7 +13,7 @@ class expences extends Model
 
     public function ex_attach()
     {
-        return $this->hasOne('App\Models\expences_attachments');
+        return $this->hasMany('App\Models\expences_attachments');
     }
 
 
