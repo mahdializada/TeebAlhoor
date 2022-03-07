@@ -5,14 +5,13 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Addresses extends Model
+class state extends Model
 {
     use HasFactory;
+    protected $table='states';
 
-    protected $table="addresses";
-    public function state()
+    public function addresses()
     {
-        return $this->belongsTo('App\Models\state');
+        return $this->hasMany('App\Models\addresse');
     }
-        
 }
