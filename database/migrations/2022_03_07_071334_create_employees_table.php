@@ -24,13 +24,13 @@ return new class extends Migration
             $table->string('company_email');
             $table->bigInteger('whatsapp');
             $table->string('gender');
-            $table->bigInteger('salarybase_id');
+            $table->bigInteger('salarybase_id')->unsigned();
             $table->date('birth_date');
-            $table->bigInteger('present_address_id');
-            $table->bigInteger('permanent_address_id');
+            $table->bigInteger('present_address_id')->unsigned();
+            $table->bigInteger('permanent_address_id')->unsigned();
             $table->enum('employee_level', ['intern', 'starter', 'junier','senior']);
             $table->enum('status', ['active', 'unactive']);
-            $table->bigInteger('department_id');
+            $table->bigInteger('department_id')->unsigned();
             $table->bigInteger('designation');
             $table->foreign('salarybase_id')->references('id')->on('salarybases')->onDelete('cascade')->onUpdate('cascade');
             $table->foreign('department_id')->references('id')->on('departements')->onDelete('cascade')->onUpdate('cascade');
