@@ -18,4 +18,9 @@ class employee extends Model
    
         return $this->belongsTo('App\Models\salarybase');
     }
+
+    public function bonuses()
+    {
+        return $this->hasMany(Bonuses::class);
+    }
 }
