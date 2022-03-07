@@ -12,6 +12,6 @@ class state extends Model
 
     public function addresses()
     {
-        return $this->hasMany('App\Models\addresse');
+        return $this->hasMany('App\Models\addresses');
     }
 }
