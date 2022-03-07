@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->date('date');
             $table->bigInteger('hours');
-            $table->bigInteger('employee_id');
+            $table->bigInteger('employee_id')->unsigned();
             $table->boolean('calculated');
             $table->timestamps();
             $table->foreign('employee_id')->references('id')->on('employees');
