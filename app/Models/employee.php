@@ -9,4 +9,13 @@ class employee extends Model
 {
     use HasFactory;
     protected $table='employees';
+
+    public function bonuses()
+    {
+        return $this->hasOne('App\Models\bouses');
+    }
+    public function salarybase()
+    {
+        return $this->belongsTo('App\Models\salarybase');
+    }
 }
