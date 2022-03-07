@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->bigInteger('amount');
-            $table->bigInteger('employee_id');
+            $table->bigInteger('employee_id')->unsigned();
             $table->bigInteger('calculate');
             $table->timestamps();
             $table->foreign('employee_id')->references('id')->on('employees')->onDelete('cascade')->onUpdate('cascade');
