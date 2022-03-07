@@ -34,6 +34,8 @@ return new class extends Migration
             $table->int('designation');
             $table->foreign('salarybase_id')->references('id')->on('salarybases')->onDelete('cascade')->onUpdate('cascade');
             $table->foreign('department_id')->references('id')->on('departements')->onDelete('cascade')->onUpdate('cascade');
+            $table->foreign('present_address_id')->references('id')->on('addresses')->onDelete('cascade')->onUpdate('cascade');
+            $table->foreign('permanent_address_id')->references('id')->on('addresses')->onDelete('cascade')->onUpdate('cascade');
             $table->timestamps();
         });
     }
