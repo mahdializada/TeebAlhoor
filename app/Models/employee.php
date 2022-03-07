@@ -18,4 +18,7 @@ class employee extends Model
     {
         return $this->belongsTo('App\Models\salarybase');
     }
+    public function employee_specific_deductions(){
+        return $this->hasMany('App\Models\employee_specific_deduction');
+    }
 }
