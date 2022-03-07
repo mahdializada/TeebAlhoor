@@ -16,6 +16,10 @@ class employee extends Model
         return $this->hasMany('App\Model\payment');
 
     }
+<<<<<<< HEAD
+    public function employee_specific_deductions(){
+        return $this->hasMany('App\Models\employee_specific_deduction');
+=======
 
     public function salarybases()
     {
@@ -30,5 +34,6 @@ class employee extends Model
     public function overtimes()
     {
         return $this->hasMany(Overtimes::class);
+>>>>>>> 4044ba73a68de9bb795cde5d55200d3f03c9be19
     }
 }
