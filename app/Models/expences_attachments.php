@@ -12,6 +12,6 @@ class expences_attachments extends Model
     
     public function expences()
     {
-        return $this->belongsTo('App\Models\expences');
+        return $this->hasMany('App\Models\expences');
     }
 }
