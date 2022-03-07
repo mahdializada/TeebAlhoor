@@ -9,4 +9,9 @@ class employee extends Model
 {
     use HasFactory;
     protected $table='employees';
+
+    public function payments()
+    {
+        return $this->hasMany('App\Model\payment');
+    }
 }

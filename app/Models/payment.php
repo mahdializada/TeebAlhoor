@@ -11,8 +11,8 @@ class payment extends Model
     
     protected $table="payments";
 
-    public function payment()
+    public function employee()
     {
-        return $this->hasMany('App\Model\employees');
+        return $this->belongsTo('App\Models\employees');
     } 
 }
