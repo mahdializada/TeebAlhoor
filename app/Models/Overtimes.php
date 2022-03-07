@@ -5,9 +5,13 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class expences_attachments extends Model
+class Overtimes extends Model
 {
     use HasFactory;
-    protected $table="expences_attachments";
-    
+
+
+    public function employee()
+    {
+        return $this->belongsTo(employee::class);
+    }
 }
