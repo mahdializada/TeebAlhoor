@@ -32,6 +32,7 @@ return new class extends Migration
             $table->enum('status', ['active', 'unactive']);
             $table->int('department_id');
             $table->int('designation');
+            $table->foreign('salarybase_id')->references('id')->on('salarybases')->onDelete('cascade')->onUpdate('cascade');
             $table->timestamps();
         });
     }

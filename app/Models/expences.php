@@ -10,9 +10,11 @@ class expences extends Model
     use HasFactory;
     protected $table="expences";
 
-    public function expences_attachments()
+
+    public function ex_attach()
     {
-        return $this->belongsTo('App/Models/expences_attachments');
-    } 
+        return $this->hasOne('App\Models\expences_attachments');
+    }
+
 
 }

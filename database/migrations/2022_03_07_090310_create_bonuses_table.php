@@ -15,6 +15,11 @@ return new class extends Migration
     {
         Schema::create('bonuses', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->enum('bonus_type',['monthly','weekly','daily','hourly']);
+            $table->int('employee_id');
+            $table->boolean('calculated');
+            $table->foreign('employee_id')->references('id')->on('employees')->onDelete('cascade')->onUpdate('cascade');
             $table->timestamps();
         });
     }
