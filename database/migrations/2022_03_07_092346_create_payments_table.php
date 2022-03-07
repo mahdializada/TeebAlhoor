@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('payments', function (Blueprint $table) {
             $table->id();
             $table->string('serial_no');
-            $table->bigInteger('employees_id');
+            $table->bigInteger('employees_id')->unsigned();
             $table->date('from_date');
             $table->date('upto_date');
             $table->bigInteger('year');
@@ -30,7 +30,7 @@ return new class extends Migration
             $table->bigInteger('total_amount');
             $table->boolean('is_paid');
             $table->timestamps();
-            $table->$foreign('employees_id')->references('id')->on('employees')->onDelete('cascade');
+            $table->foreign('employees_id')->references('id')->on('employees')->onDelete('cascade')->onUpdate('cascade');
         });
     }
 

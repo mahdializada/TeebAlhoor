@@ -33,6 +33,7 @@ return new class extends Migration
             $table->int('department_id');
             $table->int('designation');
             $table->foreign('salarybase_id')->references('id')->on('salarybases')->onDelete('cascade')->onUpdate('cascade');
+            $table->foreign('department_id')->references('id')->on('departements')->onDelete('cascade')->onUpdate('cascade');
             $table->timestamps();
         });
     }

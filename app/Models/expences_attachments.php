@@ -10,4 +10,8 @@ class expences_attachments extends Model
     use HasFactory;
     protected $table="expences_attachments";
     
+    public function expences()
+    {
+        return $this->belongsTo('App\Models\expences');
+    }
 }
