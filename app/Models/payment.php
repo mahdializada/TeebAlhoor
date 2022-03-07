@@ -13,6 +13,6 @@ class payment extends Model
 
     public function payment()
     {
-        return $this->hasOne('App\Model\employees');
+        return $this->hasMany('App\Model\employees');
     } 
 }
