@@ -5,11 +5,10 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class bonuses extends Model
+class Overtimes extends Model
 {
     use HasFactory;
 
-    protected $table="bonuses";
 
     public function employee()
     {

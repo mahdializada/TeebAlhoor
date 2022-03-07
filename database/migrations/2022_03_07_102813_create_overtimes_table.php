@@ -13,15 +13,14 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('bonuses', function (Blueprint $table) {
+        Schema::create('overtimes', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->enum('bonus_type',['monthly','weekly','daily','hourly']);
+            $table->date('date');
+            $table->bigInteger('hours');
             $table->bigInteger('employee_id')->unsigned();
             $table->boolean('calculated');
-            $table->foreign('employee_id')->references('id')->on('employees')->onDelete('cascade')->onUpdate('cascade');
             $table->timestamps();
-           
+            $table->foreign('employee_id')->references('id')->on('employees');
         });
     }
 
@@ -32,6 +31,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('bonuses');
+        Schema::dropIfExists('overtimes');
     }
 };
