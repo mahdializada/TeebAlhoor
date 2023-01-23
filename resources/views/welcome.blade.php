@@ -87,6 +87,7 @@
                                     Laravel Newsi  s a dr  iven portal and newsletter  dsfaggregating all   of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
                                 </div>
                             </div>
+
                         </div>
 
                         <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-l">
