@@ -96,7 +96,7 @@ s
 
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel Newsi  dd klklss iven portal and newsl k;kd;ketter  ing all  f the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
+                                    Laravel Newsi  dd klklss iven portal and newsl k;kd;ketter  ing all  he latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
                                 </div>
                             </div>
 
