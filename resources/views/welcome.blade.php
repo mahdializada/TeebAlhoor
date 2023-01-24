@@ -83,7 +83,7 @@ s
 
                                     offers th
 
-                                    tutorals on cvLarass  sll  vel,dd PHP, and JavaScript development.  Check them out, see for yourself, and massively level up your development skills in the process.
+                                    tutorals on cvLarass el,dd PHP, and JavaScript development.  Check them out, see for yourself, and massively level up your development skills in the process.
                                 </div>
                             </div>
                         </div>
