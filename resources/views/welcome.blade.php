@@ -62,7 +62,7 @@ s
 
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel hasdd   sfslfjl won ,fdfjl derful, thorough
+                                    Laravel hasdd  sfslfjl won ,fdfjl derful, thorough
 
                                     document  ati o n covering everysct of the framework. Whether you ares the framework or have previous experience with Laravel, we recommend reading all of the documentation from beginning to end.
                                 </div>
