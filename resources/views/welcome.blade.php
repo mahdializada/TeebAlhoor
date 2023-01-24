@@ -82,7 +82,7 @@
                                     offers thousands o f videodf
 
 
-                                    tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
+                                    tutorials on cvLaravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
                                 </div>
                             </div>
                         </div>
