@@ -13,6 +13,7 @@ class bonuses extends Model
 
     public function employee()
     {
+
         return $this->belongsTo(employee::class);
     }
 }

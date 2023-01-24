@@ -13,6 +13,7 @@ class Departement extends Model
 
     public function employees()
     {
+
         return $this->belongsTo('App\Models\employees');
-    } 
+    }
 }

@@ -13,5 +13,6 @@ class employee_specific_deduction extends Model
     public function employe()
     {
         return $this->belongsTo('App\Models\employe');
+
     }
 }

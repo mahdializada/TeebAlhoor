@@ -14,6 +14,8 @@ class expences extends Model
     public function ex_attach()
     {
         return $this->belongsTo('App\Models\expences_attachments');
+
+
     }
 
 

@@ -18,12 +18,13 @@ class employee extends Model
     }
     public function employee_specific_deductions(){
         return $this->hasMany('App\Models\employee_specific_deduction');
+
     }
     public function salarybases()
     {
         return $this->belongsTo('App\Models\salarybase');
     }
-    
+
     public function bonuses()
     {
         return $this->hasMany(Bonuses::class);
