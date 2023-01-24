@@ -64,7 +64,7 @@ s
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
                                     Laravel hasdd   sfslfjl won   ,fdfjl derful, thorough
 
-                                    documentati    o n covering everys  pect of the framework. Whether you are   new to the framework or have previous experience with Laravel, we recommend reading all of the documentation from beginning to end.
+                                    document  ati    o n covering everys  pect of the framework. Whether you are   new to the framework or have previous experience with Laravel, we recommend reading all of the documentation from beginning to end.
                                 </div>
                             </div>
                         </div>
