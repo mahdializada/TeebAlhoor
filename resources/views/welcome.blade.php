@@ -82,7 +82,7 @@ s
 
                                     offers the d
 
-                                    tutorals on cvLarel,dd PHP, and JavaScript development.  Check them out, see for yourself, and massively level up your development skills in the process.
+                                    tutorals oncvLarel,dd PHP, and JavaScript development.  Check them out, see for yourself, and massively level up your development skills in the process.
                                 </div>
                             </div>
                         </div>
