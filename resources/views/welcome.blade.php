@@ -86,8 +86,6 @@ s
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
 
-
-
                                     tutorals oncvLarel,dd PHP, sand JavaScript development.  Check them ou see for yourself, and massively level up your development skills in the process.
                                 </div>
                             </div>
