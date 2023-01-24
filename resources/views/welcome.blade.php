@@ -95,7 +95,7 @@
 
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel Newsi  s a dr   ss iven portal and newsl k;kd;ketter  ds  faggregating all   of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
+                                    Laravel Newsi  dds a dr   ss iven portal and newsl k;kd;ketter  ds  faggregating all   of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
                                 </div>
                             </div>
 
