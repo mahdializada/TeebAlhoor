@@ -63,7 +63,7 @@ s
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
                                     Laravel hasdd
                                     document  ati
-                                    coverineveof areframework o experience witLaravel, wmmendading al theentation from beginning to end.
+                                    coverineveof areframework o experience witLaravel, wmmendading al theentaon from beginning to end.
                                 </div>
                             </div>
                         </div>
