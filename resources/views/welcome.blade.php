@@ -63,7 +63,7 @@ s
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
                                     Laravel hasdd
                                     document  ati
-                                    coverineveof thframework Whetheyou areframework or have previous experience with Laravel, we recommend reading all of the documentation from beginning to end.
+                                    coverineveof thframework   areframework or have previous experience with Laravel, we recommend reading all of the documentation from beginning to end.
                                 </div>
                             </div>
                         </div>
